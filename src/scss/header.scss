@@ -1,0 +1,52 @@
+@import "colors";
+
+//======= HEADER ======
+header {
+    display: flex;
+    background-color: $eerieBlack;
+    color: $cultured;
+    padding-bottom: 5px;
+}
+  
+#logoImage {
+    width: 50px;
+    margin-left: 10px;
+}
+  
+#logoContainer {
+    position: relative;
+    display: flex;
+    left: 5%;
+    width: 29%;
+}
+  
+#logoName {
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 6px;
+}
+  
+#menuContainer {
+    position: relative;
+    text-align: center;
+    width: 40%;
+    padding-top: 15px;
+}
+
+.menuItem {
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
+  
+#optionsContainer {
+    position: relative;
+    width: 30%;
+}
+
+#optionsIcons {
+    position: relative;
+    float: right;
+    margin-top: 5%;
+    margin-right: 5%;
+}
